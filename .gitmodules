@@ -1,4 +1,0 @@
-[submodule "sites/all/modules/devel"]
-	path = sites/all/modules/devel
-	url = http://git.drupal.org/project/devel.git
-	branch = 7.x-1.x
