@@ -6,3 +6,83 @@
 	path = sites/all/modules/ctools
 	url = http://git.drupal.org/project/ctools.git
 	branch = 7.x-1.x
+[submodule "sites/all/modules/views"]
+	path = sites/all/modules/views
+	url = http://git.drupal.org/project/views.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/token"]
+	path = sites/all/modules/token
+	url = http://git.drupal.org/project/token.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/module_filter"]
+	path = sites/all/modules/module_filter
+	url = http://git.drupal.org/project/module_filter.git
+	branch = 7.x-2.x
+[submodule "sites/all/modules/pathauto"]
+	path = sites/all/modules/pathauto
+	url = http://git.drupal.org/project/pathauto.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/date"]
+	path = sites/all/modules/date
+	url = http://git.drupal.org/project/date.git
+	branch = 7.x-2.x
+[submodule "sites/all/modules/calendar"]
+	path = sites/all/modules/calendar
+	url = http://git.drupal.org/project/calendar.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/ckeditor"]
+	path = sites/all/modules/ckeditor
+	url = http://git.drupal.org/project/ckeditor.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/ckeditor_link"]
+	path = sites/all/modules/ckeditor_link
+	url = http://git.drupal.org/project/ckeditor_link.git
+	branch = 7.x-2.x
+[submodule "sites/all/modules/backup_migrate"]
+	path = sites/all/modules/backup_migrate
+	url = http://git.drupal.org/project/backup_migrate.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/transliteration"]
+	path = sites/all/modules/transliteration
+	url = http://git.drupal.org/project/transliteration.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/imce"]
+	path = sites/all/modules/imce
+	url = http://git.drupal.org/project/imce.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/jquery_update"]
+	path = sites/all/modules/jquery_update
+	url = http://git.drupal.org/project/jquery_update.git
+	branch = 7.x-2.x
+[submodule "sites/all/modules/metatag"]
+	path = sites/all/modules/metatag
+	url = http://git.drupal.org/project/metatag.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/float_filter"]
+	path = sites/all/modules/float_filter
+	url = http://git.drupal.org/project/float_filter.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/redirect"]
+	path = sites/all/modules/redirect
+	url = http://git.drupal.org/project/redirect.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/filefield_sources"]
+	path = sites/all/modules/filefield_sources
+	url = http://git.drupal.org/project/filefield_sources.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/navigation404"]
+	path = sites/all/modules/navigation404
+	url = http://git.drupal.org/project/navigation404.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/views_bootstrap"]
+	path = sites/all/modules/views_bootstrap
+	url = http://git.drupal.org/project/views_bootstrap.git
+	branch = 7.x-3.x
+[submodule "sites/all/themes/bootstrap"]
+	path = sites/all/themes/bootstrap
+	url = http://git.drupal.org/project/bootstrap.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/bootstrap_gallery"]
+	path = sites/all/modules/bootstrap_gallery
+	url = http://git.drupal.org/project/bootstrap_gallery.git
+	branch = 7.x-3.x
