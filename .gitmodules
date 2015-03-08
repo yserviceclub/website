@@ -86,3 +86,7 @@
 	path = sites/all/modules/bootstrap_gallery
 	url = http://git.drupal.org/project/bootstrap_gallery.git
 	branch = 7.x-3.x
+[submodule "sites/all/modules/pathologic"]
+	path = sites/all/modules/pathologic
+	url = http://git.drupal.org/project/pathologic.git
+	branch = 7.x-2.x
