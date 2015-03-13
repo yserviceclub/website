@@ -25,6 +25,12 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/carousel.css
+stylesheets[all][] = css/product-page.css
+stylesheets[all][] = css/calendar.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/main-menu-colors.css
 
 
 ; For information on choosing the desired method, please read the Drupal

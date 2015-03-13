@@ -94,3 +94,7 @@
 	path = sites/all/modules/insert
 	url = http://git.drupal.org/project/insert.git
 	branch = 7.x-1.x
+[submodule "sites/all/modules/bootstrap_login_modal"]
+	path = sites/all/modules/bootstrap_login_modal
+	url = http://git.drupal.org/project/bootstrap_login_modal.git
+	branch = 7.x-3.x
