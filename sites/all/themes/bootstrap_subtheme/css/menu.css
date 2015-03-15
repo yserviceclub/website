@@ -90,7 +90,6 @@ header#navbar>div>div.navbar-collapse {
 	padding: 0;
 	width: 100%;
 	margin: 0;
-	/*float: right;*/
 	overflow: visible;
 }
 
@@ -107,11 +106,8 @@ nav>div.region-navigation {
 	container for the main menu 
 ********/
 nav>ul.menu {
-/*	float: right;*/
 	clear: both;
 	margin: 0;
-	/*margin-top: 10px;*/
-	/*margin-bottom: 10px;*/
 
 }
 
@@ -120,7 +116,15 @@ nav>ul.menu {
 nav>div.region-navigation>section.block {
 	clear: none;
 	margin-top: 0;
-	/*float: left;*/
+	margin-bottom: 10px;
+}
+/* navigation menu only */
+div.region-navigation>section#block-system-navigation {
+	float: left;
+}
+/* user-menu only */
+div.region-navigation>section#block-system-user-menu {
+	float: right;
 }
 
 /* reset the login block margins */
@@ -130,8 +134,9 @@ div.region-navigation>section.block-bootstrap-login-modal>ul.navbar-nav {
 
 /* adjust position to align the login block */
 div.region-navigation>section.block-bootstrap-login-modal {
-	position: relative;
-	top: 1px;
+	/*position: relative;*/
+	float: right;
+	/*top: 1px;*/
 }
 
 /* horizontally align the navigation menu items */
@@ -147,10 +152,8 @@ nav>div.region-navigation>section.block ul li {
 /* set the width for the search form */
 nav>div.region-navigation>section#block-search-form {
 	width: 100%;
-	/*float: right;*/
 	margin: 0;
 	padding: 0;
-	/*margin-left: 10px;*/
 	margin-bottom: 5px;
 }
 .content-search input {
@@ -178,7 +181,7 @@ div.region-navigation>section.block ul li a {
 	border-radius: 5px;
 }
 
-/* navigation menu dropdown */
+/* --- navigation menu dropdown ---- */
 
 /* background of the button when selecting dropdown menu */
 div.region-navigation>section.block ul li a:hover,
@@ -212,7 +215,6 @@ div.region-navigation>section.block .dropdown-menu li.leaf a:focus,
 div.region-navigation>section.block .dropdown-menu li.leaf a:active {
     background-color: #E29390;
     color: white;
-
 }
 
 
@@ -220,8 +222,6 @@ div.region-navigation>section.block .dropdown-menu li.leaf a:active {
 toggle nav button
 -------------------- */
 .navbar-toggle {
-	/*margin-top: 25px;*/
-	/*margin-left: 10px;*/
 	width: 100px
 }
 .navbar-toggle .icon-bar {
@@ -233,7 +233,6 @@ toggle nav button
 add space under opened collapsed menu
 -----------------------*/
 .navbar-collapse.in {
-/*margin-bottom: 50px;*/
 }
 
 
@@ -318,7 +317,6 @@ _       _
 		container for the navigation and the main menu
 	******/
 	header#navbar>div>div.navbar-collapse {
-		/*padding: 0;*/
 		width: 75%;
 		float: right;
 	}
@@ -333,14 +331,38 @@ _       _
 
 	/* align the sections horizontally (navigation, login and search form) */
 	nav>div.region-navigation>section.block {
-		/*clear: none;*/
-		/*margin-top: 0;*/
 		float: right;
 	}
+	/* navigation menu only */
+	div.region-navigation>section#block-system-navigation {
+		float: right;
+		position: relative;
+		top: 4px;
+	}
+	/* user-menu only */
+	div.region-navigation>section#block-system-user-menu {
+		float: right;
+		position: relative;
+		top: 4px;
+	}
+	/* adjust position to align the login block */
+	div.region-navigation>section.block-bootstrap-login-modal {
+		float: right;
+		position: relative;
+		top: 4px;
+	}
+	/* horizontally align the navigation menu items */
+	nav>div.region-navigation>section.block ul li {
+		float: left;
+	}
 
-	/* set the width for the search form */
+	/* --------------
+		search form
+		-------------- */
 	nav>div.region-navigation>section#block-search-form {
 		width: 20%;
+		margin-left: 15px;
+		float: right;
 	}
 
 	/*******
@@ -348,11 +370,14 @@ _       _
 	********/
 	nav>ul.menu {
 		float: right;
-		/*clear: both;*/
-		/*margin-top: 10px;*/
-		/*margin-bottom: 10px;*/
+		margin-top: 5px;
 	}
+	/* 	main menu items  */
+	header#navbar nav>.menu>li>a {
+		font-size: 16px;
+		padding: 7px 12px;
 
+	}
 
 }
 
@@ -378,6 +403,17 @@ _       _
 		font-size: 14px;
 	}
 
+	/*******
+	container for the main menu 
+	********/
+	nav>ul.menu {
+		margin-top: 8px;
+	}
+	/* 	main menu items  */
+	header#navbar nav>.menu>li>a {
+		font-size: 19px;
+		padding: 8px 13px;
+	}
 
 }
 
@@ -390,9 +426,16 @@ Large devices (large desktops, 1200px and up)
 ----------------------------------------------*/
 @media (min-width: 1200px) {
 
+	/*******
+	container for the main menu 
+	********/
+	nav>ul.menu {
+		/*margin-top: 15px;*/
+	}
 	/* 	main menu items  */
 	header#navbar nav>.menu>li>a {
 		font-size: 22px;
+		padding: 10px 15px;
 
 	}
 

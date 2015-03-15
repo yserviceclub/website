@@ -39,7 +39,7 @@ stylesheets[all][] = css/login_modal.css
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
  
-scripts[] = 'js/login_modal.js'
+; scripts[] = 'js/login_modal.js'
 
 
 

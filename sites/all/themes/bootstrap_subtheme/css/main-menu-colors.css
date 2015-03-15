@@ -220,7 +220,7 @@ _       _
     /* 1st menu item 
     ******************/
     .navbar nav>.menu>li:nth-child(1)>a {
-        background-color: rgba(210, 203, 216, 0.5);
+        background-color: rgba(210, 203, 216, 0.35);
     }
 
     .navbar nav>.menu>li:nth-child(1)>a:hover,
@@ -253,7 +253,7 @@ _       _
     /* 2nd menu item 
     *****************/
     .navbar nav>.menu>li:nth-child(2)>a {
-        background-color: rgba(202, 224, 221, 0.5);
+        background-color: rgba(202, 224, 221, 0.35);
     }
 
     .navbar nav>.menu>li:nth-child(2)>a:hover,
@@ -285,7 +285,7 @@ _       _
     /* 3rd menu item 
     ******************/
     .navbar nav>.menu>li:nth-child(3)>a {
-        background-color: rgba(246, 227, 188, 0.5);
+        background-color: rgba(246, 227, 188, 0.35);
     }
 
     .navbar nav>.menu>li:nth-child(3)>a:hover,
@@ -318,7 +318,7 @@ _       _
     /* 4th menu item 
     *****************/
     .navbar nav>.menu>li:nth-child(4)>a {
-        background-color: rgba(204, 228, 200, 0.5);
+        background-color: rgba(204, 228, 200, 0.35);
     }
 
     .navbar nav>.menu>li:nth-child(4)>a:hover,
@@ -351,7 +351,7 @@ _       _
     /* 5th menu item 
     ******************/
     .navbar nav>.menu>li:nth-child(5)>a {
-        background-color: rgba(238, 185, 176, 0.5);
+        background-color: rgba(238, 185, 176, 0.25);
     }
 
     .navbar nav>.menu>li:nth-child(5)>a:hover,
@@ -384,7 +384,7 @@ _       _
     /* 6th menu item 
     *****************/
     .navbar nav>.menu>li:nth-child(6)>a {
-        background-color: rgba(153, 187, 212, 0.5);
+        background-color: rgba(153, 187, 212, 0.35);
     }
 
     .navbar nav>.menu>li:nth-child(6)>a:hover,
