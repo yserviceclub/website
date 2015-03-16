@@ -19,6 +19,7 @@ body {
 	background-color: #F8F4ED;
 	font-family: 'Droid Sans', arial, sans-serif;
 	font-weight: 400;
+	font-size: 14px;
 }
 img {
     border: 0;
@@ -58,19 +59,52 @@ font-family: 'Oswald', sans-serif; /* titles typeface */
 }
 /* ------------------------------ */
 
-/* body text margins on news page for teasers */
-.bodytext-margin {
-	margin-bottom: 15px;
-	margin-top: 15px;
-}
 /* body text margin on news article full text page */
 .field-name-body,
 .field-name-field-product-description {
 	margin-top: 15px;
 }
-/* margin for login to comment links */
-.links {
-	margin-top: 20px;
+
+
+
+/*
+|------------------------------|
+|	thumbnail content views    |
+|------------------------------|
+*/
+.link_to_content {
+	color: #777777;
+}
+.link_to_content:hover {
+	text-decoration: none;
+	color: black;
+}
+/* body text margins on frontpage for teasers */
+.bodytext-margin {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+/* margin LEFT + RIGHT for small-teaser frontpage images */
+.teaser-image {
+  margin-right: 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+div.view-frontpage div.thumbnail {
+	background-color: transparent;
+	border: none;
+	border-top: 1px solid rgba(214, 211, 206, 1);
+	padding: 0;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+div.view-frontpage div.thumbnail h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.post-date {
+	font-style: italic;
 }
 
 
@@ -113,7 +147,7 @@ section#block-fb-social-fb-like {
 }
 
 /* sidebar title h2 */
-.region-sidebar-first h2.subhead {
+h2.sidebar-header {
 	font-family: 'Amatic SC', sans-serif;
 	font-weight: 700;
 	border-bottom: 1px solid rgba(214, 211, 206, 1);
@@ -121,6 +155,9 @@ section#block-fb-social-fb-like {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding-left: 10px;
+}
+h2.sidebar-header.project {
+	background-color: #CAE0DD;
 }
 
 .region-sidebar-first .media-list {
@@ -159,6 +196,8 @@ li.media:hover {
 
 /* pager */
 
+/*
+
 .pager {
 	margin-bottom: 30px;
 }
@@ -182,6 +221,7 @@ li.media:hover {
 	background-color: #FBF7FF;
 }
 
+*/
 
 
 
@@ -189,7 +229,7 @@ li.media:hover {
 /* ---
 	upcoming events list-group 
 --- */
-
+/*
 li.views-row-odd.list-group-item {
 	background-color: #FFFEF5;
 }
@@ -202,6 +242,8 @@ background-color: #FCF8EA;
 	background-color: #FBF9F6;
 	border-bottom: 1px solid rgba(214, 211, 206, 1);
 }
+
+*/
 
 
 /* 
