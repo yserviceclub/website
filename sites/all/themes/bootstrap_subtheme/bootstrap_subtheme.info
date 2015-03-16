@@ -26,13 +26,14 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/carousel.css
-stylesheets[all][] = css/product-page.css
+stylesheets[all][] = css/product_page.css
 stylesheets[all][] = css/calendar.css
 stylesheets[all][] = css/footer.css
-stylesheets[all][] = css/admin-menu.css
+stylesheets[all][] = css/admin_menu.css
 stylesheets[all][] = css/menu.css
-stylesheets[all][] = css/main-menu-colors.css
+stylesheets[all][] = css/main_menu_colors.css
 stylesheets[all][] = css/login_modal.css
+stylesheets[all][] = css/headline_sticky.css
 
 
 ;;;;;;;;;;;;;;;;;;;;;

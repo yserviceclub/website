@@ -72,14 +72,13 @@ font-family: 'Oswald', sans-serif; /* titles typeface */
 .links {
 	margin-top: 20px;
 }
-/* margin LEFT + RIGHT for small-teaser news images */
-.right-gutter {
-	margin-right: 10px;
-	margin-left: 0;
-}
-.margin-below {
-	margin-bottom: 20px;
-}
+
+
+/*
+|----------------------|
+|	maintenance_page   |
+|----------------------|
+*/
 body.maintenance-page {
 	text-align: center;
 }
@@ -259,86 +258,6 @@ XXXXXXXXXXXXXXXXXXX
 }
 
 
-/* --------
-headlines
-------------- */
-
-/* sticky news */
-.sticky.well {
-	background-color: white;
-	padding-top: 0;
-	padding-bottom: 0;
-}
-.view-news-sticky div.row div.col:nth-child(2) {
-	border-width: 4px;
-	border-color: #F8F4ED;
-	border-style: solid;
-	/* left and right borders only */
-	border-top: none;
-	border-bottom: none;
-}
-.sticky.alert-info {
-	/*margin: -19px;*/
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
-	/*font-family: 'Amatic SC', sans-serif;*/
-	font-weight: 700;
-	padding-top: 3px;
-	padding-bottom: 3px;
-}
-.sticky .glyphicon {
-	font-size: 24px;
-}
-.sticky-date {
-	font-style: italic;
-	font-size: 12px;
-}
-.sticky-title {
-	margin: 0;
-	font-size: 24px;
-}
-.headline-News-Article {
-	color: #93869E;
-	background-color: #E3DFE7;
-	border-color: #D2CBD8;
-}
-.well-news.well {
-	background-color: #F6F2F5;
-}
-.label.news-comment {
-	background-color: #93869E;
-}
-/* project headline */
-.headline-project,
-.headline-Project-Article {
-	color: #51867F;
-	background-color: #DDECEF;
-	border-color: #BBDBD7;
-}
-.well-projects.well {
-	background-color: #ECF5F6;
-}
-.label.project-comment {
-	background-color: #51867F;
-}
-/* event headline */
-.headline-event,
-.headline-Event {
-	color: #B6955D;
-	background-color: #F6E3BC;
-	border-color: #D5BFA9;
-}
-.label.event-comment {
-	background-color: #B6955D;
-}
-
-
-
-
-
-
 
 /* 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -350,7 +269,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	background-color: #FDFAF3;
 	border: 1px solid #EAE1D2;
 }
-
 
 
 
