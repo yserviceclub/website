@@ -48,3 +48,6 @@ function bootstrap_subtheme_date_nav_title($params) {
 		return $title;
 	}
 }
+
+
+
